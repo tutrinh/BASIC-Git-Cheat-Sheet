@@ -47,7 +47,25 @@ The "-u" create the upstream to the remote.
 
 ## Add Files to Commit
 
+#### Add Changed files to Staging Area
+Stages all files, including new, modified, and deleted files, including files in the current directory and in higher directories that still belong to the same git repository.
+```text
+$ git add -A
+```
+
+#### Resetting Changed Files from Staging Back To Local
+Simply undoing the `git add`.
+To undo `git add`, use `git reset`.
+```text
+$ git rest HEAD
+```
+
 ## Commits
+Committing changed files you want to push to staging area.
+Commits are the building blocks of "save points" within Git's version control.
+```text
+git commit -m "update the README.md with link to contributing guide"
+```
 
 ## Pushing Files to Remote Branch
 - `$ git push -u origin master` command used when pushing a branch for the first time. This will configure the relationship between the remote and your local repository so that you can use `git push` and `git pull` with no addition options.
@@ -56,8 +74,11 @@ The "-u" create the upstream to the remote.
 ## Pulling Files from Remote Branch
 - `$ git pull`, pull files from remote branch to your local branch
 
-
-
+## Reset Currrent Local Branch With Remote Branch
+```text
+git fetch
+git reset --hard @{u} git reset --hard <branch-name>
+```
 
 
  
