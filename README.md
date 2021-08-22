@@ -9,11 +9,11 @@ description: Collection of git commands I used daily.
 $ git remove -v
 ```
 ## Branch
-### Show Branches
+#### Show Branches
 ```text
 $ git branch
 ```
-### New Branch Based on the Current HEAD
+#### New Branch Based on the Current HEAD
 ```text
 $ git branch <new-branch>
 ```
