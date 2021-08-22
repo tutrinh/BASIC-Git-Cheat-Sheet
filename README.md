@@ -1,5 +1,5 @@
 ---
-description: This is a collection of git commands I used daily.
+description: Collection of git commands I used daily.
 ---
 
 # Git Cheat Sheet
