@@ -50,7 +50,7 @@ The "-u" create the upstream to the remote.
 ## Commits
 
 ## Pushing Files to Remote Branch
--`$ git push -u origin master` command used when pushing a branch for the first time. This will configure the relationship between the remote and your local repository so that you can use `git push` and `git pull` with no addition options.
+- `$ git push -u origin master` command used when pushing a branch for the first time. This will configure the relationship between the remote and your local repository so that you can use `git push` and `git pull` with no addition options.
 - `$ git push` command to push commit files to remote branch
 
 ## Pulling Files from Remote Branch
