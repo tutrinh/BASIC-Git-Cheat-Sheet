@@ -80,6 +80,15 @@ git fetch
 git reset --hard @{u} git reset --hard <branch-name>
 ```
 
+## Difference Between Git Pull and Git Fetch
+- `git fetch` tells local git to retreive the latest metadata info from the original. Does not do file transferring.
+- `git pull` will make changes to your local files.
+
+Use `git fecth` to know the changes done in the remote repo/branch since the last pull. Useful to know the differences before doing a `git pull` which will overwrite your local files in your current branch and working copy.
+```text
+git fetch
+git diff ...origin
+```
 
  
 
