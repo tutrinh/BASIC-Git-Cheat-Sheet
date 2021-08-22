@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Git Cheat Sheet](README.md)
 
