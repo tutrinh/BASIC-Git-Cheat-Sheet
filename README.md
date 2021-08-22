@@ -22,8 +22,19 @@ $ git branch <new-branch>
 ```text
 $ git branch <new-branch> <base-branch>
 ```
-
-
+### New Branch from a Specific Commit
+```text
+$ git branch <new-branch> f71ac24d
+```
+### New Branch from a Remote Branch
+```text
+$ git checkout --track origin/<base-branch>
+```
+### New Branch in a Remote Directory
+```text
+$ git push -u origin <local-branch>
+```
+The "-u" create the upstream to the remote.
 
 
  
